@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-weight: 600;
+}
+.logo span{
+    font-weight: 500;
+}
+
+.main-btn{
+    padding: 8px 26px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+/* 
+.caption{
+    font-size: 50px;
+} */
+
+.size{
+    font-size: 35px;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.625);
+}
+.btn-2{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+.btn-2:hover{
+    background-color: blue;
+    color: white;
+}
+.places-title{
+    font-family: 'Poppins', sans-serif;
+}
+
+.places{
+    background-color: whitesmoke;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.span{
+    font-family: 'Arizonia', cursive;
+    font-size: 30px !important;
+}
+
+.carouselExampleCaptions{
+    margin: 0;
+    padding: 0;
+    border: 0 !important;
+}
+
+
+.slide_p{
+    font-size: 20px;
+}
+
+.background{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    margin: 100px 0;
+}
+
+.slider_bg{
+    width: 100%;
+    height: 100%;
+}
+.slider_bg{
+    width: 100%;
+    height: 100%;
+    /* background:url("./Images/6.jpg"); */
+    background:linear-gradient( rgba(0, 0, 0, 0.677), rgba(0, 0, 0, 0.487), rgba(0, 28, 67, 0.534) ) , url("./Images/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider_bg .row , .slider_bg .row .col{
+    width: 100%;
+    height: 100%;
+}
+
+.slider_bg i{
+    /* font-size: 40px; */
+    color: white;
+}
+.slider_bg h1{
+    color: white;
+}
+
+.subscribe{
+    width: 100%;
+    height: 360px;
+    background: linear-gradient(rgba(0, 0, 0, 0.677),rgba(0, 0, 0, 0.677)) , url("./Images/4.jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+.subscribe .container, .subscribe .row , .subscribe .col{
+    width: 100%;
+    height: 100%;
+}
+.subscribe p{
+    opacity: 0.8;
+}
+.subscribe input{
+    width:75%;
+}
+.subscribe button{
+    width: 20%;
+}
+.subscribe form{
+    width: 100%;
+}
+
+.background p{
+    opacity: 0.7;
+}
+
+.owl-carousel img{
+    height: 230px;
+    object-fit: cover;
+}
+.card-body span{
+    margin-left: 70px;
+}
+.recenttrips{
+    padding: 0px 70px;
+    padding-top: 35px;
+}
+
+footer{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(25, 24, 26);
+    color: white;
+    overflow: hidden;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer ul{
+    margin-left: -28px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.feedback{
+    width: 100%;
+    height: 600px;
+}
+
+.feedback .card{
+    width: 100%;
+    height: 350px;
+}
+.feedback .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.feedback .para{
+    font-size: 18px;
+}
+.name,
+.rating{
+    position: absolute;
+}
+.card-body {
+    position: relative;
+}
+.name{
+    bottom: 60px;
+    left: 50px;
+}
+.rating{
+    bottom:160px;
+    left: 220px;
+}
+.owl-carousel .item .card{
+    margin: 0 20px;
+}
